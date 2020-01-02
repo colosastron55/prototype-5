@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class manager : MonoBehaviour
 {
-    public List<GameObject> tagets;
+    public List<GameObject> targets;
     private float spawnRate = 1.0f;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class manager : MonoBehaviour
     }
     IEnumerator SpawnTarget() {
         while (true) {
-            yield return new WaitFOrSeconds(spawnRate);
+            yield return new WaitForSeconds(spawnRate);
             int index = Random.Range(0, targets.Count);
             Instantiate(targets[index]);
         }
