@@ -743,8 +743,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 968.7, y: -687}
-  m_SizeDelta: {x: 157.87, y: 26.929993}
+  m_AnchoredPosition: {x: 1116.5797, y: -670.4}
+  m_SizeDelta: {x: 131.43, y: 26.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1777982836
 MonoBehaviour:
@@ -776,8 +776,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281742128
+  m_fontColor: {r: 0.18823531, g: 0.20000002, b: 0.21176472, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -812,7 +812,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -24.938894, y: -5.541942, z: 37.288902, w: -10.83722}
+  m_margin: {x: -24.938894, y: -5.541942, z: 61.270004, w: -9.60746}
   m_textInfo:
     textComponent: {fileID: 1777982836}
     characterCount: 5
@@ -902,7 +902,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 587ce71a1013945a88f4712db43be069, type: 2}
+  - {fileID: 2100000, guid: 6ab871076ced34e898bb626404012968, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
